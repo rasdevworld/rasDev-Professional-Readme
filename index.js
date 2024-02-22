@@ -9,11 +9,6 @@ const questions = [{
     message : "What is your project title?",
     name : "title"
 },{
-    type : "list",
-    message : "Choose a license",
-    name : "license",
-    choices : ["MIT","Apache","IBM","No License"]
-},{
     type : "input",
     message : "Please provide the description for your project",
     name : "description"
@@ -25,6 +20,11 @@ const questions = [{
     type : "input",
     message : "What is the usage of your project?",
     name : "usage"
+},{
+    type : "list",
+    message : "Choose a license for your application",
+    name : "license",
+    choices : ["MIT","Apache","IBM","No License"]
 },{
     type : "input",
     message : "Please provide the contributing to your application",

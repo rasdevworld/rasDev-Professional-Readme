@@ -1,7 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 function renderLicenseBadge(license) {
    if(license === "MIT") {
@@ -18,7 +16,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if(licence === "MIT") {
+  if(license === "MIT") {
     return `https://opensource.org/licenses/MIT`
   }else if(license === "Apache") {
   return `https://opensource.org/licenses/Apache-2.0`
@@ -35,7 +33,7 @@ function renderLicenseSection(license) {
   if(license === 'No license'){
     return ``
   }else{
-    return `${renderLicenseLink(license)} License`
+    return `This application has <a href="${renderLicenseLink(license)}">${license} License</a>`
   }
 }
 
@@ -49,12 +47,14 @@ function generateMarkdown(data) {
 
   ${data.description}
   
-  ## Table of Contents (Optional)
+  ## Table of Contents 
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   
@@ -79,6 +79,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
+  For further questions, please feel free to contact me via information below:
   <ul>
     <li><a href='mailto://${data.email}?subject="contact me"&body=""'>Contact Me</a></li>
     <li><a href='https://github.com/${data.username}'>My Github Profile</a></li>

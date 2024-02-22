@@ -1,43 +1,46 @@
-# read me
+# Readme Generator
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  undefined
+  This is a command-line application that runs with Node.js that dynamically generates a README file based on user's input.
   
-  ## Table of Contents (Optional)
+  ## Table of Contents 
   
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   
-  undefined
+  To generate your own README, 'git clone' your repository to your local machine. Run 'npm install' inorder to install the npm package dependencies as specified in the package.json.
   
   ## Usage
 
-  undefined
+  When you run 'node index.js', this application uses the inquirer package to prompt you in the command-line with series of questions. Finally, writeToFile() is used to generate README.md file in the output folder.
       
   
   ## Contributing
   
-  undefined
+  Contributions and feature requests are welcome!
   
   ## License
   
-  MIT
+  This application has <a href="https://opensource.org/licenses/MIT">MIT License</a>
   
   ## Tests
   
-  undefined
+  Run 'node index.js' in the command-line to run this application.
 
   ## Questions
 
+  For further questions, please feel free to contact me via information below:
   <ul>
-    <li><a href='mailto://undefined?subject="contact me"&body=""'>Contact Me</a></li>
-    <li><a href='https://github.com/undefined'>My Github Profile</a></li>
+    <li><a href='mailto://rasmiroy@yahoo.com?subject="contact me"&body=""'>Contact Me</a></li>
+    <li><a href='https://github.com/rasdevworld'>My Github Profile</a></li>
   </ul>
   
