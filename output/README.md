@@ -1,4 +1,4 @@
-# Readme Generator
+# readme Generator
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -17,11 +17,11 @@
   
   ## Installation
   
-  To generate your own README, 'git clone' your repository to your local machine. Run 'npm install' inorder to install the npm package dependencies as specified in the package.json.
+  To generate your own README, 'git clone' the repository to your local machine. Run 'npm install' inorder to install npm package dependencies specified in the package.json.
   
   ## Usage
 
-  When you run 'node index.js', this application uses the inquirer package to prompt you in the command-line with series of questions. Finally, writeToFile() is used to generate README.md file in the output folder.
+  When you run 'node index.js', this application uses the inquierer package to prompt you in the command-line with series of questions. Finally, writeToFile() is used to generate your README.md file in the output folder.
       
   
   ## Contributing
@@ -40,7 +40,7 @@
 
   For further questions, please feel free to contact me via information below:
   <ul>
-    <li><a href='mailto://rasmiroy@yahoo.com?subject="contact me"&body=""'>Contact Me</a></li>
+    <li><a href='mailto:rasmiroy@yahoo.com?subject=contact me&body='>Contact Me</a></li>
     <li><a href='https://github.com/rasdevworld'>My Github Profile</a></li>
   </ul>
   

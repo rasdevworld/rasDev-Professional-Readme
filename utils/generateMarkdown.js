@@ -81,7 +81,7 @@ function generateMarkdown(data) {
 
   For further questions, please feel free to contact me via information below:
   <ul>
-    <li><a href='mailto://${data.email}?subject="contact me"&body=""'>Contact Me</a></li>
+    <li><a href='mailto:${data.email}?subject=contact me&body='>Contact Me</a></li>
     <li><a href='https://github.com/${data.username}'>My Github Profile</a></li>
   </ul>
   
